@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neontech</title>
+
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_wrap">
+            <h1>
+                <a href="/"><img src="./images/logo-white.png" alt=""></a>
+            </h1>
+            <nav class="gnb">
+                <ul>
+                    <li><a href="">회사소개</a></li>
+                    <li><a href="">반도체장비</a></li>
+                    <li><a href="">마스크설비</a></li>
+                    <li><a href="">임가공</a></li>
+                    <li><a href="">자동화부품</a></li>
+                    <li><a href="">드론</a></li>
+                    <li><a href="">고객지원</a></li>
+                </ul>
+            </nav>
+            <div class="search"><i class="xi-search"></i></div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="main_visual">
+            <div class="visual_slide">
+                <div class="itm itm01">01</div>
+                <div class="itm itm02">02</div>
+                <div class="itm itm03">03</div>
+            </div>
+        </section>
+        <section class="main_content">
+            <div class="title">
+                <h2>사업소개</h2>
+                <p>고객만족을 넘어 세계로 도약하는 NEONTECH의 기술이 인류의 삶을 풍요롭게 합니다.</p>
+            </div>
+            <div class="inner">
+                <figure>
+                    <div class="img_box">
+                        <img src="./images/maincontent01.jpg" alt="">
+                    </div>
+                </figure>
+                <figure>
+                    <div class="img_box">
+                        <img src="./images/maincontent02.jpg" alt="">
+                    </div>
+                </figure>
+                <figure>
+                    <div class="img_box">
+                        <img src="./images/maincontent03.jpg" alt="">
+                    </div>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="inner">
+                <ul class="privacy">
+                    <li><a href="">회사소개</a></li>
+                    <li><a href="">채용안내</a></li>
+                    <li><a href="">오시는 길</a></li>
+                    <li><a href="">기술지원</a></li>
+                    <li><a href="">개인정보처리방침</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="inner">
+                <address class="copyright">
+                    <span>(주)네온테크 (14055)경기도 안양시 동안구 부림로 146(관양동, 네온테크빌딩) 사업자등록번호_ 335-87-01207</span>
+                    <span>TEL_ 031-352-8740~03 FAX_ 031-352-8701</span>
+                    <span>copyright ⓒ 2018 www.neontech.co.kr all rights reserved.</span>
+                </address>
+                <ul class="logo">
+                    <img src="./images/logo_ft.png" alt="">
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $(function () {
+            $('.visual_slide').slick({
+                arrows: false,
+                autoplay: true,
+                pauseOnHover: false,
+            });
+        });
+    </script>
+</body>
+
+</html>
